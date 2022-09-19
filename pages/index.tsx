@@ -12,14 +12,13 @@ type Props = {
   allPosts: Post[]
 }
 
-export default function Index({ allPosts }: Props) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+const Home = ({ allPosts }: Props) => {
+  const [heroPost, ...morePosts] = allPosts
   return (
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>My Recipe Book</title>
         </Head>
         <Container>
           <Intro />
@@ -39,6 +38,7 @@ export default function Index({ allPosts }: Props) {
     </>
   )
 }
+export default Home
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts([
