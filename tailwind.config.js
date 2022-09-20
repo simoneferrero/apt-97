@@ -29,6 +29,14 @@ module.exports = {
         sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
         md: '0 8px 30px rgba(0, 0, 0, 0.12)',
       },
+      dropShadow: {
+        title: '2px 4px 6px rgba(4,48,44,0.9)',
+        subtitle: '2px 4px 6px rgba(45, 212, 191, 0.9)',
+      },
+    },
+    fontFamily: {
+      cursive: ['Dancing Script', 'cursive'],
+      body: ['Poppins', 'sans-serif'],
     },
   },
   plugins: [],
