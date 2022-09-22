@@ -16,6 +16,7 @@ const appBarContainerStyles = classNames(
   'text-center',
   'text-theme',
   'text-xl',
+  'top-0',
   'w-full',
   'z-50',
 )
@@ -44,7 +45,7 @@ const AppBar: React.FC = () => {
   return (
     <header className={appBarContainerStyles}>
       <Link href="/food" passHref>
-        <a className={linkStyles(pathname === '/food')}>
+        <a className={linkStyles(pathname.includes('/food'))}>
           <span className={cursiveStyles}>Our</span>
           <br />
           <span>FOOD</span>

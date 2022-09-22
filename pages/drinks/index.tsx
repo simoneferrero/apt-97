@@ -38,14 +38,7 @@ const FoodHome = ({ recipes }: Props) => {
 export default FoodHome
 
 export const getStaticProps = async () => {
-  const recipes = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-  ])
+  const recipes = getAllPosts('_drinks')
 
   return {
     props: { recipes },

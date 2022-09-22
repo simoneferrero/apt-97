@@ -1,7 +1,7 @@
 ---
 title: 'Pasta alla carbonara'
 excerpt: 'Un piatto semplice e gustoso.'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: '/images/spaghetti-carbonara.png'
 date: '2022-09-19T15:35:07.322Z'
 author:
   name: Simone

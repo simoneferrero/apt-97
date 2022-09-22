@@ -8,12 +8,16 @@
   --background: #efefef;
 }
 
+body {
+  background-color: var(--theme);
+}
+
 .full-height {
-  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  height: var(--vh);
+  min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  min-height: var(--vh);
 }
 
 .full-width {
-  width: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  width: var(--vw);
+  min-width: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  min-width: var(--vw);
 }

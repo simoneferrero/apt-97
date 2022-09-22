@@ -15,10 +15,9 @@ const FoodHome = ({ recipes }: Props) => {
   return (
     <>
       <Head>
-        <title>Our Food</title>
+        <title>Our Food | Apt.97</title>
       </Head>
       <Container>
-        <Intro />
         {heroPost && (
           <HeroPost
             title={heroPost.title}
@@ -38,14 +37,7 @@ const FoodHome = ({ recipes }: Props) => {
 export default FoodHome
 
 export const getStaticProps = async () => {
-  const recipes = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-  ])
+  const recipes = getAllPosts('_food')
 
   return {
     props: { recipes },

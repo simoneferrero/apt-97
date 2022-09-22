@@ -3,6 +3,7 @@ import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
 import type Author from '../interfaces/author'
+import { useRouter } from 'next/router'
 
 type Props = {
   title: string
@@ -21,13 +22,15 @@ const PostPreview = ({
   author,
   slug,
 }: Props) => {
+  const { pathname } = useRouter()
+
   return (
     <div>
       <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       <h3 className="text-3xl mb-3 leading-snug">
-        <Link as={`/posts/${slug}`} href="/posts/[slug]">
+        <Link as={`${pathname}/${slug}`} href={`${pathname}/[slug]`}>
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>

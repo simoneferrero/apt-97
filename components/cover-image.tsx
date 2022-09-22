@@ -1,5 +1,6 @@
 import cn from 'classnames'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 type Props = {
   title: string
@@ -8,6 +9,8 @@ type Props = {
 }
 
 const CoverImage = ({ title, src, slug }: Props) => {
+  const { pathname } = useRouter()
+
   const image = (
     <img
       src={src}
@@ -20,7 +23,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
   return (
     <div className="sm:mx-0">
       {slug ? (
-        <Link as={`/posts/${slug}`} href="/posts/[slug]">
+        <Link as={`${pathname}/${slug}`} href={`${pathname}/[slug]`}>
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (
