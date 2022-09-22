@@ -29,7 +29,7 @@ export const getPostBySlug = (slug: string, fields: string[] = []) => {
       ...allItems,
       [field]: fieldMap[field],
     }),
-    {}
+    {},
   )
 
   return items

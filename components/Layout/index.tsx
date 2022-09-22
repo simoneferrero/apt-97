@@ -1,14 +1,16 @@
-import Meta from './meta'
+import AppBar from '../AppBar'
+import Meta from '../meta'
 
 type Props = {
   children: React.ReactNode
 }
 
-const Layout = ({ children }: Props) => {
+const Layout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Meta />
       <div className="min-h-screen">
+        <AppBar />
         <main>{children}</main>
       </div>
     </>
