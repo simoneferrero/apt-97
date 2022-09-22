@@ -4,11 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        theme: 'var(--theme)',
+        background: 'var(--background)',
       },
       spacing: {
         28: '7rem',
@@ -31,7 +28,6 @@ module.exports = {
       },
       dropShadow: {
         title: '2px 4px 6px rgba(4,48,44,0.9)',
-        subtitle: '2px 4px 6px rgba(45, 212, 191, 0.9)',
       },
     },
     fontFamily: {

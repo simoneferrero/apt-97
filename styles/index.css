@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.full-height-mobile {
+/* Theme colours */
+:root {
+  --theme: #2b5292;
+  --background: #efefef;
+}
+
+.full-height {
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: var(--vh);
+}
+
+.full-width {
+  width: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  width: var(--vw);
 }

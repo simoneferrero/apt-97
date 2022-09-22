@@ -13,15 +13,16 @@ const useWindowSize = (): Size => {
 
   useEffect(() => {
     function handleResize() {
+      const height = window.innerHeight
+      const width = window.innerWidth
+
       setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
+        height,
+        width,
       })
 
-      document.documentElement.style.setProperty(
-        '--vh',
-        `${window.innerHeight}px`
-      )
+      document.documentElement.style.setProperty('--vh', `${height}px`)
+      document.documentElement.style.setProperty('--vw', `${width}px`)
     }
 
     window.addEventListener('resize', handleResize)
