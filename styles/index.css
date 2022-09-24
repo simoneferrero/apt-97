@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: var(--theme);
+  background-color: var(--background);
 }
 
 .full-height {

@@ -29,6 +29,9 @@ module.exports = {
       dropShadow: {
         title: '2px 4px 6px rgba(4,48,44,0.9)',
       },
+      borderWidth: {
+        1: '1px',
+      },
     },
     fontFamily: {
       cursive: ['Dancing Script', 'cursive'],
