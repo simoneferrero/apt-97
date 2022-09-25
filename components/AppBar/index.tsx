@@ -5,17 +5,20 @@ import classNames from 'classnames'
 import { useRouter } from 'next/router'
 
 const appBarContainerStyles = classNames(
+  'sticky',
+  'top-0',
   'bg-background',
-  'flex',
-  'items-center',
+  'z-50',
+  'w-full',
+)
+const appBarStyles = classNames(
   'justify-center',
   'max-w-5xl',
   'mx-auto',
-  'sticky',
-  'top-0',
-  'z-50',
+  'flex',
+  'items-center',
 )
-const appBarStyles = (isHomepage: boolean) =>
+const itemsContainerStyles = (isHomepage: boolean) =>
   classNames(
     'border-b-2',
     'border-theme',
@@ -58,42 +61,44 @@ const AppBar: React.FC = () => {
 
   return (
     <header className={appBarContainerStyles}>
-      <div className={appBarStyles(pathname === '/')}>
-        <div className={linkContainerStyles('left')}>
-          <Link as="/food" href="/food">
-            <a className={textualLinkStyles(pathname.includes('/food'))}>
-              <span className={cursiveStyles}>Our</span>
-              <br />
-              <span>FOOD</span>
-            </a>
-          </Link>
-        </div>
-        <div className={linkContainerStyles('center')}>
-          <Link as="/" href="/" aria-label="Home" passHref>
-            <a>
-              <div className={homeLogoContainerStyles}>
-                <Image
-                  src={logo}
-                  alt="The logo of the website"
-                  height="100%"
-                  width="100%"
-                  priority={true}
-                  placeholder="blur"
-                  objectFit="contain"
-                  layout="fixed"
-                />
-              </div>
-            </a>
-          </Link>
-        </div>
-        <div className={linkContainerStyles('right')}>
-          <Link as="/drinks" href="/drinks">
-            <a className={textualLinkStyles(pathname.includes('/drinks'))}>
-              <span className={cursiveStyles}>Our</span>
-              <br />
-              <span>DRINKS</span>
-            </a>
-          </Link>
+      <div className={appBarStyles}>
+        <div className={itemsContainerStyles(pathname === '/')}>
+          <div className={linkContainerStyles('left')}>
+            <Link as="/food" href="/food">
+              <a className={textualLinkStyles(pathname.includes('/food'))}>
+                <span className={cursiveStyles}>Our</span>
+                <br />
+                <span>FOOD</span>
+              </a>
+            </Link>
+          </div>
+          <div className={linkContainerStyles('center')}>
+            <Link as="/" href="/" aria-label="Home" passHref>
+              <a>
+                <div className={homeLogoContainerStyles}>
+                  <Image
+                    src={logo}
+                    alt="The logo of the website"
+                    height="100%"
+                    width="100%"
+                    priority={true}
+                    placeholder="blur"
+                    objectFit="contain"
+                    layout="fixed"
+                  />
+                </div>
+              </a>
+            </Link>
+          </div>
+          <div className={linkContainerStyles('right')}>
+            <Link as="/drinks" href="/drinks">
+              <a className={textualLinkStyles(pathname.includes('/drinks'))}>
+                <span className={cursiveStyles}>Our</span>
+                <br />
+                <span>DRINKS</span>
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
     </header>
