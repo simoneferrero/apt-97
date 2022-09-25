@@ -1,62 +1,75 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# Apt.97
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+A blog to display our collection of recipes and cocktails.
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
+It's created using Next.js with static building and hosted on Vercel.
+<br />
+<br />
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+## Adding a post
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+### The markdown
 
-## Demo
+To add a new recipe or cocktail, create a new `.md` file in the `_food` or `_drinks` top folder.
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+The new file should be named the same as the route that will link to the post, for example `spaghetti-carbonara.md`.
 
-## Deploy your own
+**The file must be written in [Markdown](https://www.markdownguide.org/basic-syntax/) and include a Frontmatter and a body.**
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+Example file contents:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+```
+---
+title: 'Pasta alla carbonara'
+excerpt: 'A simple and tasty plate of pasta.'
+coverImage: 'cover.png'
+date: '2022-09-25T21:39:41.361Z'
+author: Simone
+servings: 2
+ingredients:
+  - 220g spaghetti
+  - 2 eggs
+  - 50g grated pecorino
+  - 100g smoked bacon lardons
+  - salt & pepper as needed
+tags:
+  - pasta
+  - savoury
+  - main
+  - bacon
+---
 
-### Related examples
+Some great text that introduces the recipe.
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
-- [Builder.io](/examples/cms-builder-io)
-- [TinaCMS](/examples/cms-tina/)
+1. Lorem
+1. Ipsum
+1. Dolor sit amet
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog-starter blog-starter-app
+Some extra text to say enjoy your meal!
 ```
 
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
+<br />
 
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
+**Required frontmatter fields**
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+- `title`: `string` - The name of the recipe/cocktail
+- `excerpt`: `string` - A short description of the recipe/cocktail
+- `date`: `string` - The date the recipe was added in ISO format - you can obtain it by returning `new Date().toISOString()` in any browser console
+- `author`: `string` - The name of the person who has created the recipe/cocktail
+- `servings`: `number` - How many people this recipe/cocktail will serve
+- `ingredients`: `string[]` - An array of the ingredients required to make the recipe/cocktail
+- `tags`: `string[]` - An array of tags used to filter this recipe/cocktail
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+**Optional frontmatter fields**
 
-# Notes
+- `coverImage`: `string` - The title of the image used as preview/cover. It defaults to `cover.png`
+  <br />
+  <br />
 
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+## Adding images
+
+**Every post must have a cover image.**
+
+All images must be saved in the folder `public/images/[_food|_drinks]/{slug}/`, with `slug` being the same as the name of the `.md` file. If the cover image is named `cover.png`, the name does not need to be added to the frontmatter `coverImage` field. If it's different, then it must be added there.
+
+Any other image that you wish to add to the post should be included in the same folder, and it can be referenced directly in the markdown using relative paths.

@@ -1,8 +1,8 @@
 import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
-import type { FoodData } from '../@types/food'
-import type { Directory } from '../@types/directory'
+import type { PostDataType } from '../types/post'
+import type { Directory } from '../types/directory'
 
 const postsDirectory = (directory: Directory) => join(process.cwd(), directory)
 
@@ -17,10 +17,17 @@ export const getPostBySlug = (slug: string, directory: Directory) => {
   const fullPath = join(postsDirectory(directory), `${realSlug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
+  const coverImage = join(
+    '/images',
+    directory,
+    realSlug,
+    data?.coverImage || 'cover.png',
+  )
 
   return {
-    ...(data as FoodData),
+    ...(data as PostDataType),
     content,
+    coverImage,
     slug: realSlug,
   }
 }

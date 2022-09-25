@@ -1,20 +1,12 @@
-type Author = {
-  name: string
-  picture: string
-}
-
 type PostType = {
+  author: string
+  content: string
+  coverImage: string
+  date: string
+  excerpt: string
+  ingredients: string[]
   slug: string
   title: string
-  date: string
-  coverImage: string
-  author: Author
-  excerpt: string
-  ogImage: {
-    url: string
-  }
-  content: string
-  ingredients: string[]
 }
 
 export default PostType

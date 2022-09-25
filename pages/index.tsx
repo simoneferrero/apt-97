@@ -41,8 +41,6 @@ const Home = () => {
           <Image
             src={logo}
             alt="The logo of the website"
-            width="100%"
-            height="100%"
             priority={true}
             placeholder="blur"
             objectFit="cover"

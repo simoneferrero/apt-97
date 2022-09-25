@@ -1,7 +1,7 @@
 ---
 title: 'Blue Lagoon'
 excerpt: 'A refreshing, sweet and exotic cocktail.'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: 'cover.jpg'
 date: '2022-09-19T15:35:07.322Z'
 author:
   name: Simone
@@ -20,6 +20,6 @@ tags:
   - lime
 ---
 
-0. Lorem
+1. Lorem
 1. Ipsum
-2. Dolor sit amet
+1. Dolor sit amet
