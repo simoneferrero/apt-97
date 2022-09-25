@@ -20,7 +20,7 @@ type Params = {
 }
 
 export const getStaticProps = async ({ params }: Params) => {
-  const post = getPostBySlug(params.slug, '_food')
+  const post = getPostBySlug(params.slug, '_drinks')
   const content = await markdownToHtml(post.content || '')
 
   return {
@@ -34,7 +34,7 @@ export const getStaticProps = async ({ params }: Params) => {
 }
 
 export const getStaticPaths = async () => {
-  const paths = getAllPaths('_food')
+  const paths = getAllPaths('_drinks')
 
   return {
     paths,

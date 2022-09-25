@@ -19,6 +19,10 @@ tags:
   - main
 ---
 
-0. Lorem
+Some great text that introduces the recipe.
+
+1. Lorem
 1. Ipsum
-2. Dolor sit amet
+1. Dolor sit amet
+
+Some extra text to say enjoy your meal!

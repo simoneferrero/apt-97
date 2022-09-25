@@ -1,6 +1,5 @@
 import AppBar from '../AppBar'
-import Meta from '../meta'
-import classNames from 'classnames'
+import Meta from '../Meta'
 
 type Props = {
   children: React.ReactNode

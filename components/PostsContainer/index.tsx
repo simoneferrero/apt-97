@@ -21,7 +21,7 @@ const noPostsStyles = classNames(
   'font-bold',
   'pt-8',
   'text-3xl',
-  'text-background',
+  'text-theme',
   'text-center',
   'w-full',
 )

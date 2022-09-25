@@ -1,4 +1,7 @@
-import type Author from './author'
+type Author = {
+  name: string
+  picture: string
+}
 
 type PostType = {
   slug: string
@@ -11,6 +14,7 @@ type PostType = {
     url: string
   }
   content: string
+  ingredients: string[]
 }
 
 export default PostType

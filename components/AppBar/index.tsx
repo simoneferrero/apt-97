@@ -9,6 +9,8 @@ const appBarContainerStyles = classNames(
   'flex',
   'items-center',
   'justify-center',
+  'max-w-5xl',
+  'mx-auto',
   'sticky',
   'top-0',
   'z-50',
@@ -22,13 +24,12 @@ const appBarStyles = (isHomepage: boolean) =>
     'font-bold',
     'items-center',
     'justify-between',
-    'max-w-5xl',
     'md:text-3xl',
     'mx-8',
-    'mx-auto',
     'text-center',
     'text-theme',
     'text-xl',
+    'xl:mx-0',
     'w-full',
     {
       'border-transparent': isHomepage,
@@ -87,7 +88,7 @@ const AppBar: React.FC = () => {
         </div>
         <div className={linkContainerStyles('right')}>
           <Link as="/drinks" href="/drinks">
-            <a className={textualLinkStyles(pathname === '/drinks')}>
+            <a className={textualLinkStyles(pathname.includes('/drinks'))}>
               <span className={cursiveStyles}>Our</span>
               <br />
               <span>DRINKS</span>
