@@ -8,7 +8,7 @@ const appBarContainerStyles = classNames(
   'sticky',
   'top-0',
   'bg-background',
-  'z-50',
+  'z-10',
   'w-full',
 )
 const appBarStyles = classNames(

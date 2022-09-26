@@ -3,6 +3,8 @@ import { join } from 'path'
 import matter from 'gray-matter'
 import type { PostDataType } from '../types/post'
 import type { Directory } from '../types/directory'
+import { PostType } from '../types/post'
+import { TagsType } from '../providers/TagsProvider'
 
 const postsDirectory = (directory: Directory) => join(process.cwd(), directory)
 
@@ -49,4 +51,14 @@ export const getAllPaths = (directory: Directory) => {
       slug: getRealSlug(slug),
     },
   }))
+}
+
+export const getTagsFromPosts = (posts: PostType[]): TagsType => {
+  const tags = Array.from(
+    new Set(
+      posts.reduce((allTags: string[], post) => [...allTags, ...post.tags], []),
+    ),
+  )
+
+  return tags.reduce((allTags, tag) => ({ ...allTags, [tag]: true }), {})
 }
