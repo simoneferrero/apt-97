@@ -3,17 +3,15 @@ title: 'Blue Lagoon'
 excerpt: 'A refreshing, sweet and exotic cocktail.'
 coverImage: 'cover.jpg'
 date: '2022-09-19T15:35:07.322Z'
-author:
-  name: Simone
+author: Simone
 servings: 2
 ingredients:
-  - 50cl vodka
-  - 25cl blu curaçao
-  - 25cl lime juice
+  - 50ml vodka
+  - 25ml blu curaçao
+  - 25ml lime juice
   - sprite
   - ice
 tags:
-  - cocktail
   - sweet
   - vodka
   - curaçao

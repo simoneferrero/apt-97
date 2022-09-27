@@ -3,8 +3,7 @@ title: 'Pasta alla carbonara'
 excerpt: 'Un piatto semplice e gustoso.'
 coverImage: 'cover.png'
 date: '2022-09-19T15:35:07.322Z'
-author:
-  name: Simone
+author: Simone
 servings: 2
 ingredients:
   - 220g spaghetti
