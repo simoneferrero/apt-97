@@ -62,7 +62,7 @@ Some extra text to say enjoy your meal!
 
 **Optional frontmatter fields**
 
-- `coverImage`: `string` - The title of the image used as preview/cover. It defaults to `cover.png`
+- `coverImage`: `string` - The title of the image used as preview/cover. It defaults to `cover.jpg`
   <br />
   <br />
 

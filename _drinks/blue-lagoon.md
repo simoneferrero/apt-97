@@ -1,7 +1,6 @@
 ---
 title: 'Blue Lagoon'
 excerpt: 'A refreshing, sweet and exotic cocktail.'
-coverImage: 'cover.jpg'
 date: '2022-09-19T15:35:07.322Z'
 author: Simone
 servings: 2

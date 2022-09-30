@@ -6,6 +6,8 @@ import type { Directory } from '../types/directory'
 import { PostType } from '../types/post'
 import { TagsType } from '../providers/TagsProvider'
 
+const DEFAULT_COVER_IMAGE_NAME = 'cover.jpg'
+
 const postsDirectory = (directory: Directory) => join(process.cwd(), directory)
 
 export const getPostSlugs = (directory: Directory) => {
@@ -23,7 +25,7 @@ export const getPostBySlug = (slug: string, directory: Directory) => {
     '/images',
     directory,
     realSlug,
-    data?.coverImage || 'cover.png',
+    data?.coverImage || DEFAULT_COVER_IMAGE_NAME,
   )
 
   return {

@@ -1,7 +1,6 @@
 ---
 title: 'Tequila Sunrise'
 excerpt: 'A simple yet tasty treat.'
-coverImage: 'cover.jpg'
 date: '2022-09-27T22:02:36.786Z'
 author: Simone
 servings: 2

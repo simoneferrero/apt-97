@@ -1,7 +1,6 @@
 ---
 title: 'Aperol Spritz'
 excerpt: 'The king of aperitif.'
-coverImage: 'cover.jpg'
 date: '2022-09-27T22:02:36.786Z'
 author: Simone
 servings: 2
