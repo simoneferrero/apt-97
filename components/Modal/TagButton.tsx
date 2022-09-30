@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleCheck, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import classNames from 'classnames'
 
 type ButtonProps = {
@@ -6,17 +8,18 @@ type ButtonProps = {
   setIsActive: (label: string) => void
 }
 
-const TagButton = ({ label, isActive, setIsActive }: ButtonProps) => {
-  const buttonClassName = classNames(
+const buttonStyles = (isActive: boolean) =>
+  classNames(
     'border-2',
     'border-theme',
     'flex-auto',
     'focus:outline-none',
     'focus:ring-1',
     'focus:ring-theme',
-    'leading-loose',
     'font-cursive',
     'hover:shadow-md',
+    'items-center',
+    'leading-loose',
     'md:text-xl',
     'px-3',
     'py-2',
@@ -25,13 +28,14 @@ const TagButton = ({ label, isActive, setIsActive }: ButtonProps) => {
     isActive ? 'bg-theme' : 'bg-background',
     isActive ? 'text-background' : 'text-theme',
   )
+const TagButton = ({ label, isActive, setIsActive }: ButtonProps) => {
   return (
     <button
       type="button"
-      className={buttonClassName}
+      className={buttonStyles(isActive)}
       onClick={() => setIsActive(label)}
     >
-      {label}
+      <span>{label}</span>
     </button>
   )
 }

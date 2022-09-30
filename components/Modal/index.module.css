@@ -1,3 +1,0 @@
-.absoluteBottom {
-  bottom: calc(100vh - var(--vh) + 2rem);
-}

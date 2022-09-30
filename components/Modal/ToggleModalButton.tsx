@@ -1,6 +1,5 @@
 import type { Dispatch, SetStateAction } from 'react'
 import classNames from 'classnames'
-import styles from './index.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilter } from '@fortawesome/free-solid-svg-icons'
 
@@ -9,10 +8,11 @@ type Props = {
 }
 
 const buttonStyles = classNames(
-  'absolute',
   'bg-theme',
   'border-2',
   'border-theme',
+  'bottom-8',
+  'fixed',
   'flex',
   'focus:outline-none',
   'focus:ring-1',
@@ -29,11 +29,11 @@ const buttonStyles = classNames(
   'text-background',
   'text-sm',
   'w-14',
-  styles.absoluteBottom,
 )
 
 const ToggleModalButton = ({ setOpen }: Props) => (
   <button
+    aria-label="Toggle Filters"
     type="button"
     className={buttonStyles}
     onClick={() => setOpen((prevValue) => !prevValue)}

@@ -65,25 +65,31 @@ const modalTitleStyles = classNames(
   'text-theme',
   'text-lg',
 )
+const buttonsContainerStyles = classNames(
+  'flex-wrap',
+  'gap-4',
+  'grid-cols-2',
+  'grid',
+  'justify-between',
+  'md:flex',
+  'pt-4',
+)
 const modalTagsContainerStyles = classNames(
   'flex-wrap',
   'flex',
   'gap-2',
   'overflow-y-auto',
-  'pt-4',
+  'pt-6',
   'w-full',
 )
-const buttonsContainerStyles = classNames(
+const modalFooterStyles = classNames(
   'bg-gray-100',
-  'flex-wrap',
-  'grid-cols-2',
-  'grid',
-  'justify-between',
-  'md:flex',
+  'flex',
+  'gap-4',
+  'justify-center',
   'px-4',
   'py-3',
   'sm:px-6',
-  'gap-4',
 )
 const buttonStyles = (isSelectAll: boolean) =>
   classNames(
@@ -160,6 +166,23 @@ export default function Modal({ tags, setTags }: Props) {
                         <Dialog.Title as="h3" className={modalTitleStyles}>
                           SELECT YOUR FILTERS
                         </Dialog.Title>
+                        <div className={buttonsContainerStyles}>
+                          <button
+                            type="button"
+                            className={buttonStyles(false)}
+                            onClick={() => resetTags(false)}
+                            ref={cancelButtonRef}
+                          >
+                            UN-SELECT ALL
+                          </button>
+                          <button
+                            type="button"
+                            className={buttonStyles(true)}
+                            onClick={() => resetTags(true)}
+                          >
+                            SELECT ALL
+                          </button>
+                        </div>
                         <div className={modalTagsContainerStyles}>
                           {Object.entries(tags)
                             .sort()
@@ -175,21 +198,14 @@ export default function Modal({ tags, setTags }: Props) {
                       </div>
                     </div>
                   </div>
-                  <div className={buttonsContainerStyles}>
-                    <button
-                      type="button"
-                      className={buttonStyles(false)}
-                      onClick={() => resetTags(false)}
-                      ref={cancelButtonRef}
-                    >
-                      UN-SELECT ALL
-                    </button>
+                  <div className={modalFooterStyles}>
                     <button
                       type="button"
                       className={buttonStyles(true)}
-                      onClick={() => resetTags(true)}
+                      onClick={() => setOpen(false)}
+                      ref={cancelButtonRef}
                     >
-                      SELECT ALL
+                      APPLY
                     </button>
                   </div>
                 </Dialog.Panel>
