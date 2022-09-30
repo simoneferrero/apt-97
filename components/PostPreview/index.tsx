@@ -22,7 +22,7 @@ const articleStyles = classNames(
 
 const titleStyles = classNames(
   'absolute',
-  'bg-opacity-50',
+  'bg-opacity-75',
   'bg-white',
   'bottom-0',
   'font-body',
@@ -34,6 +34,7 @@ const titleStyles = classNames(
   'md:text-2xl',
   'px-3',
   'py-9',
+  'rounded-xl',
   'text-3xl',
   'text-center',
   'text-theme',
