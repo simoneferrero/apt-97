@@ -25,7 +25,7 @@ excerpt: 'A simple and tasty plate of pasta.'
 coverImage: 'cover.png'
 date: '2022-09-25T21:39:41.361Z'
 author: Simone
-servings: 2
+servings: 1
 ingredients:
   - 220g spaghetti
   - 2 eggs

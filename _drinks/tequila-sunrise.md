@@ -3,13 +3,12 @@ title: 'Tequila Sunrise'
 excerpt: 'A simple yet tasty treat.'
 date: '2022-09-27T22:02:36.786Z'
 author: Simone
-servings: 2
+servings: 1
 ingredients:
   - 100ml orange juice
   - 30ml tequila
   - 10ml grenadine
   - orange slice
-  - ice
 tags:
   - sweet
   - tequila
