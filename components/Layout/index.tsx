@@ -1,4 +1,5 @@
 import AppBar from '../AppBar'
+import Footer from '../Footer'
 import Meta from '../Meta'
 
 type Props = {
@@ -12,6 +13,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <div className="full-height">
         <AppBar />
         <main>{children}</main>
+        <Footer />
       </div>
     </>
   )

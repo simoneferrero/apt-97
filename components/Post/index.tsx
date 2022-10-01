@@ -7,6 +7,8 @@ import type PostType from '../../interfaces/post'
 import markdownStyles from './index.module.css'
 import classNames from 'classnames'
 import EditButton from '../EditButton'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 type Props = {
   post: PostType
@@ -44,6 +46,25 @@ const imageContainerStyles = classNames(
   'relative',
   'rounded-xl',
 )
+const servingsContainerStyles = classNames(
+  'absolute',
+  'bg-opacity-75',
+  'bg-white',
+  'flex',
+  'flex',
+  'font-bold',
+  'font-body',
+  'gap-3',
+  'h-14',
+  'items-center',
+  'left-4',
+  'md:text-lg',
+  'px-3',
+  'rounded-xl',
+  'text-base',
+  'text-theme',
+  'top-4',
+)
 const ingredientsSectionStyles = classNames(
   'border-2',
   'border-theme',
@@ -52,18 +73,28 @@ const ingredientsSectionStyles = classNames(
   'rounded-xl',
   'w-full',
 )
-const ingredientsTitleStyles = classNames(
-  'font-bold',
-  'font-cursive',
-  'text-2xl',
-)
+const sectionTitleStyles = classNames('font-bold', 'font-cursive', 'text-2xl')
 const ingredientsListStyles = classNames('list-disc', 'ml-6', 'pt-2')
-const stepsSectionStyles = classNames('mx-auto', 'pt-6')
+const stepsSectionStyles = classNames('mx-auto', 'py-6')
 const stepsTitleStyles = classNames(
   'font-bold',
   'font-cursive',
   'pb-4',
   'text-2xl',
+)
+const tagsSectionStyles = classNames(
+  'border-2',
+  'border-theme',
+  'p-4',
+  'rounded-xl',
+  'w-full',
+)
+const lastModifiedStyles = classNames(
+  'text-right',
+  'pt-4',
+  'font-body',
+  'text-sm',
+  'text-theme',
 )
 
 const Post = ({ post }: Props) => {
@@ -99,9 +130,13 @@ const Post = ({ post }: Props) => {
                 objectFit="cover"
                 layout="responsive"
               />
+              <div className={servingsContainerStyles}>
+                <FontAwesomeIcon icon={faUser} />
+                <span aria-hidden>{post.servings}</span>
+              </div>
             </section>
             <section className={ingredientsSectionStyles}>
-              <h2 className={ingredientsTitleStyles}>Ingredients:</h2>
+              <h2 className={sectionTitleStyles}>Ingredients:</h2>
               <ul className={ingredientsListStyles}>
                 {post.ingredients.map((ingredient, index) => (
                   <li key={index}>{ingredient}</li>
@@ -116,9 +151,16 @@ const Post = ({ post }: Props) => {
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </section>
+          <section className={tagsSectionStyles}>
+            <span className={sectionTitleStyles}>Tags:</span>{' '}
+            <span>{post.tags.join(', ')}</span>
+          </section>
         </article>
       )}
       <EditButton />
+      <p className={lastModifiedStyles}>
+        Last modified: {new Date(post.date).toLocaleDateString('en-GB')}
+      </p>
     </Container>
   )
 }

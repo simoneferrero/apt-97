@@ -12,7 +12,6 @@ const postsContainerStyles = classNames(
   'grid-cols-1',
   'grid',
   'lg:grid-cols-3',
-  'mb-8',
   'md:gap-x-8',
   'md:gap-y-12',
   'md:grid-cols-2',

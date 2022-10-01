@@ -10,6 +10,7 @@ const containerStyles = classNames(
   'mx-auto',
   'my-0',
   'p-8',
+  'pb-0',
   'relative',
   'xl:px-0',
 )
