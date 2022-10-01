@@ -62,5 +62,5 @@ export const getTagsFromPosts = (posts: PostType[]): TagsType => {
     ),
   )
 
-  return tags.reduce((allTags, tag) => ({ ...allTags, [tag]: true }), {})
+  return tags.reduce((allTags, tag) => ({ ...allTags, [tag]: false }), {})
 }
