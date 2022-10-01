@@ -1,5 +1,10 @@
 import Head from 'next/head'
 
+const TITLE = 'Apt.97'
+const DESCRIPTION = 'A collection of our favourite recipes and drinks.'
+const THEME_COLOR = '#2B5292'
+const DOMAIN = 'https://apt-97.vercel.app'
+
 const Meta = () => {
   return (
     <Head>
@@ -24,17 +29,31 @@ const Meta = () => {
       <link
         rel="mask-icon"
         href="/favicon/safari-pinned-tab.svg"
-        color="#000000"
+        color={THEME_COLOR}
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
-      <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-      <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content="A list of our favourite recipes and cocktails."
+      <link
+        rel="manifest"
+        href="/app/manifest.json"
+        crossOrigin="use-credentials"
       />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta name="apple-mobile-web-app-title" content={TITLE} />
+      <meta name="application-name" content={TITLE} />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+      <meta name="msapplication-tap-highlight" content="no" />
+      <meta name="msapplication-TileColor" content={THEME_COLOR} />
+      <meta name="theme-color" content={THEME_COLOR} />
+      <meta name="description" content={DESCRIPTION} />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="PWA App" />
+      <meta property="og:description" content={DESCRIPTION} />
+      <meta property="og:site_name" content="PWA App" />
+      <meta property="og:url" content={DOMAIN} />
       <meta property="og:image" content="/public/logos/logo-bg-light.png" />
     </Head>
   )
