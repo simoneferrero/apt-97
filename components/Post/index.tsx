@@ -6,6 +6,7 @@ import Head from 'next/head'
 import type PostType from '../../interfaces/post'
 import markdownStyles from './index.module.css'
 import classNames from 'classnames'
+import EditButton from '../EditButton'
 
 type Props = {
   post: PostType
@@ -117,6 +118,7 @@ const Post = ({ post }: Props) => {
           </section>
         </article>
       )}
+      <EditButton />
     </Container>
   )
 }
