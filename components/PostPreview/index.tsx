@@ -21,24 +21,21 @@ const articleStyles = classNames(
 )
 
 const titleStyles = classNames(
+  '-translate-x-1/2',
   'absolute',
   'bg-opacity-75',
   'bg-white',
-  'bottom-0',
+  'bottom-3',
   'font-body',
   'font-bold',
-  'left-0',
-  'lg:py-6',
-  'lg:text-xl',
-  'md:py-8',
-  'md:text-2xl',
-  'px-3',
-  'py-9',
+  'left-1/2',
+  'px-2',
+  'py-4',
   'rounded-xl',
-  'text-3xl',
   'text-center',
   'text-theme',
-  'w-full',
+  'text-xl',
+  'w-11/12',
 )
 
 const PostPreview = ({ title, coverImage, slug }: Props) => {
