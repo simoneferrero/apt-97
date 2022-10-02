@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 
-const LINKEDIN_HREF = 'https://linkedin.com/in/simoneferrero/'
-const GITHUB_HREF = 'https://github.com/simoneferrero/apt-97/'
+export const LINKEDIN_HREF = 'https://linkedin.com/in/simoneferrero/'
+export const GITHUB_HREF = 'https://github.com/simoneferrero/apt-97/'
 
 const footerStyles = classNames(
   'text-center',
