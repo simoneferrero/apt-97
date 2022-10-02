@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit } from '@fortawesome/free-solid-svg-icons'
 import { useRouter } from 'next/router'
 
-const GITHUB_EDIT_PATH = 'https://github.com/simoneferrero/apt-97/edit/main/'
+export const GITHUB_EDIT_PATH =
+  'https://github.com/simoneferrero/apt-97/edit/main/'
 
 const buttonStyles = classNames(
   'bg-theme',
