@@ -1,7 +1,6 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { TagsType, SetTagsType } from '../../providers/TagsProvider'
-import styles from './index.module.css'
 import classNames from 'classnames'
 import TagButton from './TagButton'
 import ToggleModalButton from './ToggleModalButton'
@@ -111,10 +110,10 @@ export default function Modal({ tags, setTags }: Props) {
   const handleClickTag = (label: string) =>
     setTags((prevTags) => ({ ...prevTags, [label]: !prevTags[label] }))
 
-  const resetTags = (value: boolean) =>
+  const resetTags = () =>
     setTags((prevTags) =>
       Object.keys(prevTags).reduce(
-        (allTags, tag) => ({ ...allTags, [tag]: value }),
+        (allTags, tag) => ({ ...allTags, [tag]: false }),
         {},
       ),
     )
@@ -178,7 +177,7 @@ export default function Modal({ tags, setTags }: Props) {
                     <button
                       type="button"
                       className={buttonStyles(false)}
-                      onClick={() => resetTags(false)}
+                      onClick={() => resetTags()}
                       ref={cancelButtonRef}
                     >
                       RESET
