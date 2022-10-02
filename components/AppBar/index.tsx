@@ -73,12 +73,12 @@ const AppBar: React.FC = () => {
             </Link>
           </div>
           <div className={linkContainerStyles('center')}>
-            <Link as="/" href="/" aria-label="Home" passHref>
+            <Link as="/" href="/" passHref>
               <a>
                 <div className={homeLogoContainerStyles}>
                   <Image
                     src={logo}
-                    alt="The logo of the website"
+                    alt="Home"
                     height="100%"
                     width="100%"
                     priority={true}
