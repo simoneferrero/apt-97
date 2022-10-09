@@ -1,10 +1,10 @@
 import Container from '../../components/Container'
-import Post from '../../interfaces/post'
+import { PostType } from '../../types/post'
 import PostPreview from '../../components/PostPreview'
 import classNames from 'classnames'
 
 type Props = {
-  recipes: Post[]
+  recipes: PostType[]
 }
 
 const postsContainerStyles = classNames(

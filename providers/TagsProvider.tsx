@@ -1,18 +1,6 @@
-import React, {
-  createContext,
-  Dispatch,
-  SetStateAction,
-  useContext,
-} from 'react'
+import React, { createContext, useContext } from 'react'
 
-export type TagsType = { [key: string]: boolean }
-export type SetTagsType = Dispatch<SetStateAction<TagsType>>
-export type TagsContextType = {
-  foodTags: TagsType
-  drinksTags: TagsType
-  setFoodTags: SetTagsType
-  setDrinksTags: SetTagsType
-}
+import type { TagsContextType } from '../types/tags'
 
 export const defaultTagsContext: TagsContextType = {
   foodTags: {},

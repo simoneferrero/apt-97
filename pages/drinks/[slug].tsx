@@ -1,7 +1,7 @@
 import { getPostBySlug, getAllPaths } from '../../lib/api'
 import Post from '../../components/Post'
 import markdownToHtml from '../../lib/markdownToHtml'
-import type PostType from '../../interfaces/post'
+import type { PostType } from '../../types/post'
 
 type Props = {
   post: PostType

@@ -1,6 +1,6 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { TagsType, SetTagsType } from '../../providers/TagsProvider'
+import type { TagsType, SetTagsType } from '../../types/tags'
 import classNames from 'classnames'
 import TagButton from './TagButton'
 import ToggleModalButton from './ToggleModalButton'

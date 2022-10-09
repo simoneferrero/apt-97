@@ -5,7 +5,8 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import useWindowSize from '../hooks/useWindowSize'
 import { useState } from 'react'
-import { TagsProvider, TagsType } from '../providers/TagsProvider'
+import { TagsProvider } from '../providers/TagsProvider'
+import type { TagsType } from '../types/tags'
 
 config.autoAddCss = false
 

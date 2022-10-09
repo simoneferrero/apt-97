@@ -1,15 +1,16 @@
 import PostsContainer from '../../components/PostsContainer'
 import { getAllPosts, getTagsFromPosts } from '../../lib/api'
 import Head from 'next/head'
-import Post from '../../interfaces/post'
+import { PostType } from '../../types/post'
 import Modal from '../../components/Modal'
-import { TagsType, useTagsContext } from '../../providers/TagsProvider'
+import { useTagsContext } from '../../providers/TagsProvider'
 import { useEffect } from 'react'
 import { filterPostsByTags } from '../../lib/filterPostsByTags'
 import { GetStaticProps } from 'next'
+import type { TagsType } from '../../types/tags'
 
 type Props = {
-  recipes: Post[]
+  recipes: PostType[]
   tags: TagsType
 }
 

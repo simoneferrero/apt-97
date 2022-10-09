@@ -1,10 +1,9 @@
 import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
-import type { PostDataType } from '../types/post'
+import type { PostFrontmatterType, PostType } from '../types/post'
 import type { Directory } from '../types/directory'
-import { PostType } from '../types/post'
-import { TagsType } from '../providers/TagsProvider'
+import type { TagsType } from '../types/tags'
 
 const DEFAULT_COVER_IMAGE_NAME = 'cover.jpg'
 
@@ -29,7 +28,7 @@ export const getPostBySlug = (slug: string, directory: Directory) => {
   )
 
   return {
-    ...(data as PostDataType),
+    ...(data as PostFrontmatterType),
     content,
     coverImage,
     slug: realSlug,

@@ -1,5 +1,5 @@
-import { TagsType } from '../providers/TagsProvider'
-import PostType from '../interfaces/post'
+import type { TagsType } from '../types/tags'
+import type { PostType } from '../types/post'
 
 export const filterPostsByTags = (posts: PostType[], pageTags: TagsType) =>
   Object.values(pageTags).filter(Boolean).length

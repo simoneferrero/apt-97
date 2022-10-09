@@ -1,15 +1,15 @@
-export type PostDataType = {
+export type PostFrontmatterType = {
   author: string
   coverImage: string
   date: string
   excerpt: string
   ingredients: string[]
-  servings: number
+  servings: string
   tags: string[]
   title: string
 }
 
-export type PostType = PostDataType & {
+export type PostType = PostFrontmatterType & {
   content: string
   slug: string
 }
