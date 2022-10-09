@@ -4,7 +4,7 @@ excerpt: 'Un piatto semplice e gustoso.'
 coverImage: 'cover.png'
 date: '2022-09-19T15:35:07.322Z'
 author: Simone
-servings: 2
+servings: '2'
 ingredients:
   - 220g spaghetti
   - 2 uova

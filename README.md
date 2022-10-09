@@ -25,7 +25,7 @@ excerpt: 'A simple and tasty plate of pasta.'
 coverImage: 'cover.png'
 date: '2022-09-25T21:39:41.361Z'
 author: Simone
-servings: 1
+servings: '1'
 ingredients:
   - 220g spaghetti
   - 2 eggs
@@ -56,7 +56,7 @@ Some extra text to say enjoy your meal!
 - `excerpt`: `string` - A short description of the recipe/cocktail
 - `date`: `string` - The date the recipe was added in ISO format - you can obtain it by returning `new Date().toISOString()` in any browser console
 - `author`: `string` - The name of the person who has created the recipe/cocktail
-- `servings`: `number` - How many people this recipe/cocktail will serve
+- `servings`: `string` - How many people this recipe/cocktail will serve
 - `ingredients`: `string[]` - An array of the ingredients required to make the recipe/cocktail
 - `tags`: `string[]` - An array of tags used to filter this recipe/cocktail
 

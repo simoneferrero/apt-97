@@ -3,7 +3,7 @@ title: 'Calamarata al ragù di frutti di mare'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: 2
+servings: '2'
 ingredients:
   - 240g calamarata
   - 40g gamberi

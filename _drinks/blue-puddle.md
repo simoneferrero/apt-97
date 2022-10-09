@@ -3,7 +3,7 @@ title: 'Blue Puddle'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: 1
+servings: '1'
 ingredients:
   - 35ml lime juice
   - 35ml grapefruit juice

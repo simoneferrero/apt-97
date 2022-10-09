@@ -2,8 +2,8 @@
 title: 'Tortino al cioccolato con cuore fondente'
 excerpt: ''
 date: '2022-10-04T11:29:23.166Z'
-author: Stefania
-servings: 8-10
+author: 'Stefania'
+servings: '8-10'
 ingredients:
   - 300 gr cioccolato fondente
   - 160 gr burro

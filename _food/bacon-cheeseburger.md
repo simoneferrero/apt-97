@@ -3,10 +3,10 @@ title: 'Bacon Cheeseburger'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: 5
+servings: '4'
 ingredients:
   - 400g carne macinata
-  - 80g pancetta affumicata a strisce
+  - 200g pancetta affumicata a strisce
   - 5 panini da hamburger
   - 5 fette di cheddar
   - maionese

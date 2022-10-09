@@ -3,7 +3,7 @@ title: 'Pancakes'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: 2
+servings: '2'
 ingredients:
   - 1 uovo
   - 200ml latte

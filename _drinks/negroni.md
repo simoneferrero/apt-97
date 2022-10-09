@@ -4,7 +4,7 @@ excerpt: ''
 coverImage: 'cover.webp'
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: 1
+servings: '1'
 ingredients:
   - 50ml gin
   - 50ml martini rosso/bianco
