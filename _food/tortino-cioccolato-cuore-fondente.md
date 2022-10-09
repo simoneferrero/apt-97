@@ -2,16 +2,16 @@
 title: 'Tortino al cioccolato con cuore fondente'
 excerpt: ''
 date: '2022-10-04T11:29:23.166Z'
-author: 'Stefania'
+author: Stefania
 servings: '8-10'
 ingredients:
-  - 300 gr cioccolato fondente
-  - 160 gr burro
+  - 300gr cioccolato fondente
+  - 160gr burro
   - 6 uova (4 intere e 2 tuorli)
   - 2 bacche di vaniglia
-  - 180 gr di zucchero a velo
-  - 40 gr di farina 00
-  - 20 gr di cacao dolce
+  - 180gr di zucchero a velo
+  - 40gr di farina 00
+  - 20gr di cacao dolce
   - 8-10 pirottini di alluminio usa e getta
 tags:
   - dolce
@@ -23,7 +23,7 @@ Tra i dolci facili e veloci il tortino al cioccolato con cuore fondente Ã¨ senzâ
 1. Sciogli 300gr di cioccolato fondente a bagnomaria.
 1. Quando il cioccolato e' sciolto, toglilo dal fuoco e aggiungi 160gr di burro tagliato a tocchetti.
 1. Mescola bene finche' il burro non sara' sciolto e ben incorporato, poi lascia a raffreddare a temperatura ambiente.
-1. Nel mentre, in una ciotola a parte monta con le fruste elettrice 4 uova e 2 tuorli con 180gr di zucchero a velo e la vaniglia di due bacche.
+1. Nel mentre, in una ciotola a parte monta con le fruste elettrice 4 uova e 2 tuorli con 180gr di zucchero a velo e la vaniglia di 2 bacche.
 1. Continua a montare finche' il composto non sara' bianco e schiumoso (ci vanno circa 10 minuti).
 1. Unisci al composto il cioccolato e burro sciolti (se sono gia' a temperatura ambiente), e continua a mescolare con le fruste a bassa velocita'.
 1. Unisci anche 40gr di farina 00 e 20gr di cacao dolce e continua a mescolare fino ad ottenere un composto omogeneo. So che vuoi tantissimo assaggiarlo ma ricorda che le uova sono crude!
