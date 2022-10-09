@@ -10,8 +10,8 @@ ingredients:
   - 40g vongole
   - 40g seppie
   - 80g platessa
-  - 100g passata di pomodoro
-  - 30ml olio
+  - 30g passata di pomodoro
+  - 1 cucchiaio di olio extravergine d'oliva
   - 1 spicchio d'aglio
   - sale e peperoncino QB
   - 1 pizzico di zucchero
