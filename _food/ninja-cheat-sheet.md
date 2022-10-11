@@ -5,6 +5,7 @@ date: '2022-10-11T11:29:23.166Z'
 author: Stefania
 servings: '-'
 ingredients:
+  - -
 tags:
   - ninja
   - salato
