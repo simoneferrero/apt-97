@@ -10,22 +10,22 @@ tags:
   - salato
 ---
 
-*Patate novelle (baby)*
+Patate novelle (baby)
 - Air crisp 180° per 15-20 min, girandole a metà cottura.
 
-*Patate a spicchi*
+Patate a spicchi
 - Taglia a spicchi di 2.5cm
 - Air crisp 200° per 20-25 min, girandole a metà cottura.
 
-*Tortini patate dal freezer*
+Tortini patate dal freezer
 - Bake 200° per 20 min
 
-*Bacon*
+Bacon
 - Air crisp 200° per 6-8 min
 
-*Pagnotte dal freezer*
+Pagnotte dal freezer
 - Bake 175° per 6 min. Mettile nel cestello capovolte per un miglior risultato.
 
-*Zucchine*
+Zucchine
 - Taglia in lunghezza in 4 e poi a pezzi di 2.5cm
 - Air crisp 200° 15-20 min, girandole a metà cottura.
