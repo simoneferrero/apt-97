@@ -33,19 +33,22 @@ const articleTitleStyles = classNames(
   'text-theme',
   'w-full',
 )
-const topSectionsContainerStyles = classNames(
-  'gap-4',
-  'grid',
-  'landscape:grid-cols-2',
-  'portrait:grid-cols-1',
-)
-const imageContainerStyles = classNames(
-  'bg-background',
-  'h-max',
-  'overflow-hidden',
-  'relative',
-  'rounded-xl',
-)
+const topSectionsContainerStyles = (hasIngredients: boolean) =>
+  classNames('gap-4', 'grid', 'portrait:grid-cols-1', {
+    'landscape:grid-cols-2': hasIngredients,
+  })
+const imageContainerStyles = (hasIngredients: boolean) =>
+  classNames(
+    'bg-background',
+    'h-max',
+    'overflow-hidden',
+    'relative',
+    'rounded-xl',
+    {
+      'landscape:w-1/2': !hasIngredients,
+      'landscape:m-auto': !hasIngredients,
+    },
+  )
 const servingsContainerStyles = classNames(
   'absolute',
   'bg-opacity-75',
@@ -104,6 +107,9 @@ const Post = ({ post }: Props) => {
     return <ErrorPage statusCode={404} />
   }
 
+  const hasServings = Boolean(post.servings)
+  const hasIngredients = Boolean(post.ingredients)
+
   const pageTitle = post.title ? `${post.title} | Apt.97` : 'Apt.97'
 
   return (
@@ -120,8 +126,8 @@ const Post = ({ post }: Props) => {
       ) : (
         <article className={articleStyles}>
           <h1 className={articleTitleStyles}>{post.title.toUpperCase()}</h1>
-          <div className={topSectionsContainerStyles}>
-            <section className={imageContainerStyles}>
+          <div className={topSectionsContainerStyles(hasIngredients)}>
+            <section className={imageContainerStyles(hasIngredients)}>
               <Image
                 src={post.coverImage}
                 alt="A picture of this recipe"
@@ -130,19 +136,23 @@ const Post = ({ post }: Props) => {
                 objectFit="cover"
                 layout="responsive"
               />
-              <div className={servingsContainerStyles}>
-                <FontAwesomeIcon icon={faUser} />
-                <span aria-hidden>{post.servings}</span>
-              </div>
+              {hasServings ? (
+                <div className={servingsContainerStyles}>
+                  <FontAwesomeIcon icon={faUser} />
+                  <span aria-hidden>{post.servings}</span>
+                </div>
+              ) : null}
             </section>
-            <section className={ingredientsSectionStyles}>
-              <h2 className={sectionTitleStyles}>Ingredients:</h2>
-              <ul className={ingredientsListStyles}>
-                {post.ingredients.map((ingredient, index) => (
-                  <li key={index}>{ingredient}</li>
-                ))}
-              </ul>
-            </section>
+            {hasIngredients ? (
+              <section className={ingredientsSectionStyles}>
+                <h2 className={sectionTitleStyles}>Ingredients:</h2>
+                <ul className={ingredientsListStyles}>
+                  {post.ingredients.map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                  ))}
+                </ul>
+              </section>
+            ) : null}
           </div>
           <section className={stepsSectionStyles}>
             <h2 className={stepsTitleStyles}>Steps:</h2>

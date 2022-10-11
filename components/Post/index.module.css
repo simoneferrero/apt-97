@@ -24,3 +24,11 @@
 .markdown ol {
   @apply list-decimal ml-8 leading-relaxed;
 }
+
+.markdown ul {
+  @apply list-disc ml-8 leading-relaxed mt-1 mb-5;
+}
+
+.markdown h4 {
+  @apply font-bold;
+}

@@ -5,21 +5,21 @@ date: '2022-10-10T21:11:23.166Z'
 author: Stefania
 servings: '8'
 ingredients:
-- 2 mele
-- 250gr farina 00
-- 50gr maizena
-- 4 uova
-- 150gr zucchero
-- 16gr lievito in polvere per dolci
-- 150ml olio di semi di girasole
-- 1 pizzico di sale
-- zucchero a velo QB
+  - 2 mele
+  - 250gr farina 00
+  - 50gr maizena
+  - 4 uova
+  - 150gr zucchero
+  - 16gr lievito in polvere per dolci
+  - 150ml olio di semi di girasole
+  - 1 pizzico di sale
+  - zucchero a velo QB
 tags:
-- companion
-- dolce
-- torta
-- mele
-- vegetariana
+  - companion
+  - dolce
+  - torta
+  - mele
+  - vegetariana
 ---
 
 Una torta che ti catturerà sia per la sua bontà sia per la sua facilità nella realizzazione, infatti si mette tutto nel frullatore e la torta è pronta, pensa che le mele non vanno neppure sbucciate, quindi farai prestissimo a preparala.

@@ -27,7 +27,7 @@ Soffice e delizioso, perfetto per la colazione o per merenda! Abbinatelo alla Nu
 3. Ridurre la velocità al minimo e aggiungere poco a poco 250gr di yogurt greco.
 4. Aggiungere 100ml di olio di semi a filo e i semini di 1 bacca di vaniglia.
 5. Aggiungere un cucchiaio alla volta 180gr di farina 00, 60gr di fecola di patate e 16gr di lievito per dolci.
-6. Separare il composto in due ciotole e aggiungere in una 2-3 cucchiai di cacao in polvere. 
+6. Separare il composto in due ciotole e aggiungere in una 2-3 cucchiai di cacao in polvere.
 7. Imburrare o oleare leggermente uno stampo da plumcake in silicone e versarci dentro il composto, alternando i due gusti.
 8. Cuocere nel forno preriscaldato per 50 minuti.
 
