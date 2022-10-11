@@ -22,8 +22,8 @@ tags:
 
 Soffice e delizioso, perfetto per la colazione o per una merenda golosa!
 
-1. Preriscalda il forno ventilato a 170°.
-2. Monta 3 uova a temperatura ambiente con 140gr di zucchero e 1 pizzico di sale, fino ad ottenere un composto spumoso bianco (circa 10 minuti).
+1. Preriscaldare il forno ventilato a 170°.
+2. Montare 3 uova a temperatura ambiente con 140gr di zucchero e 1 pizzico di sale, fino ad ottenere un composto spumoso bianco (circa 10 minuti).
 3. Ridurre la velocità al minimo e aggiungere poco a poco 250gr di yogurt greco al limone.
 4. Aggiungere 100ml di olio di semi a filo e la scorza grattuggiata di 1 limone.
 5. Aggiungere un cucchiaio alla volta 180gr di farina 00, 60gr di fecola di patate e 16gr di lievito per dolci.
