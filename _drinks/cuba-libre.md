@@ -17,5 +17,5 @@ tags:
   - angostura
 ---
 
-1. Pour cola, rhum, lime juice and angostura into a glass and stir.
+1. Pour cola, rhum, lime juice and angostura into a collins glass and stir.
 1. Garnish with a lime wedge and serve.
