@@ -13,6 +13,4 @@ tags:
   - orange
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Add the vodka and orange juice to an ice-filled collins glass, stir and serve.
