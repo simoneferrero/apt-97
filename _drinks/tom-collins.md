@@ -3,7 +3,6 @@ title: 'Tom Collins'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 50ml gin
   - 25ml lemon juice
@@ -15,6 +14,5 @@ tags:
   - lemon
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Shake the gin, lemon juice and syrup with ice and strain in an ice-filled collins glass.
+1. Add soda, stir and serve with straws.
