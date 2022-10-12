@@ -19,7 +19,7 @@ tags:
   - dolce
   - torta
   - mele
-  - vegetariana
+  - vegetariano
 ---
 
 Una torta che ti catturerà sia per la sua bontà sia per la sua facilità nella realizzazione, infatti si mette tutto nel frullatore e la torta è pronta, pensa che le mele non vanno neppure sbucciate, quindi farai prestissimo a preparala.

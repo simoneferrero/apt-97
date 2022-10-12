@@ -20,8 +20,8 @@ tags:
   - companion
   - salato
   - zuppa
-  - vegetariana
-  - vegana
+  - vegetariano
+  - vegano
 ---
 
 La zuppa di lenticchie e pomodoro è un piatto gustoso e facile da realizzare, perfetto per le fredde giornate autunnali e invernali.
