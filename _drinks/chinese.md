@@ -3,7 +3,6 @@ title: 'Chinese'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 75ml rhum
   - 40ml grenadine
@@ -19,6 +18,4 @@ tags:
   - angostura
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Shake the rhum, grenadine, bitters, maraschino and triple sec with ice, strain into a chilled martini glass and serve.
