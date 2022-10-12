@@ -4,7 +4,6 @@ excerpt: ''
 coverImage: 'cover.webp'
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 25ml gin
   - 25ml orange juice
@@ -18,6 +17,5 @@ tags:
   - grenadine
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Shake the gin, lemon juice and orange juice with ice and strain into a chilled martini glass.
+1. Pour the grenadine and serve.

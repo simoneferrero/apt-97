@@ -3,7 +3,6 @@ title: 'Negroni Sbagliato'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 25ml martini rosso
   - 25ml campari
@@ -16,6 +15,5 @@ tags:
   - prosecco
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Add the vermouth and campari in an ice-filled old fashioned glass and stir.
+1. Top up with prosecco and serve.

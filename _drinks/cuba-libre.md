@@ -3,12 +3,12 @@ title: 'Cuba Libre'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 75ml Coca Cola
   - 50ml rhum
   - 10ml lime juice
   - 2 dash Angostura
+  - lime wedge
 tags:
   - sweet
   - cola
@@ -17,6 +17,5 @@ tags:
   - angostura
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Pour cola, rhum, lime juice and angostura into a collins glass and stir.
+1. Garnish with a lime wedge and serve.

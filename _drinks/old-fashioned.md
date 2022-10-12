@@ -3,7 +3,6 @@ title: 'Old Fashioned'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 45ml bourbon
   - 2 dashes Angostura
@@ -16,6 +15,5 @@ tags:
   - angostura
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Add the syrup, orange and ice to an old fashioned glass.
+1. Top with bourbon, stir gently and serve.

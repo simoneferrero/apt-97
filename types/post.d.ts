@@ -3,8 +3,8 @@ export type PostFrontmatterType = {
   coverImage: string
   date: string
   excerpt: string
-  ingredients: string[]
-  servings: string
+  ingredients?: string[]
+  servings?: string
   tags: string[]
   title: string
 }

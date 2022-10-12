@@ -9,6 +9,7 @@ ingredients:
   - 200g pancetta affumicata a strisce
   - 4 panini da hamburger
   - 4 fette di cheddar
+  - 1 tuorlo d'uovo
   - 1 pomodoro, insalata, 1 cetriolo
   - maionese, salse a scelta
   - salsa BBQ
@@ -24,7 +25,7 @@ Questo piatto è uno dei panini tipici e più famosi del fast-food americano, ch
 
 1. Tagliare 8 fette di pancetta in 3 pezzi ciascuna e metterle da parte.
 1. Tagliare ciò che rimane della pancetta a piccoli pezzi, e aggiungerla ai 400g di carne macinata in una ciotola capiente.
-1. Mescolare a mano il tutto aggiungendovi un cucchiaio di salsa BBQ, un pizzico di sale e spezie a scelta.
+1. Mescolare a mano il tutto aggiungendovi il tuorlo d'uovo, un cucchiaio di salsa BBQ, un pizzico di sale e spezie a scelta.
 1. Dividere il tutto in 4 porzioni di uguale peso e riporre in frigo il tutto a riposare per almeno 1 ora.
 1. Una volta passato questo tempo, pre-riscaldare il forno a a 200°C (190 ventilato) e cuocervi le fette di bacon per circa 12-14 minuti, o finchè non diventano croccanti.
 1. Tagliare la verdura a fette sottili e metterla da parte in attesa di farcire i panini.
