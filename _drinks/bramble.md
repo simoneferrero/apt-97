@@ -3,7 +3,6 @@ title: 'Bramble'
 excerpt: 'The classic spring cocktail.'
 date: '2022-09-27T22:02:36.786Z'
 author: Simone
-servings: '1'
 ingredients:
   - 50ml gin
   - 25ml lemon juice
@@ -18,6 +17,6 @@ tags:
   - lemon
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Crush some mint leaves and blackberries in a shaker.
+1. Add the gin, lemon juice and syrup with ice, shake vigorously and strain into a crushed ice-filled highball glass.
+1. Pour the creme de mure, add a leaf of mint and a blackberry, and serve.
