@@ -4,7 +4,6 @@ excerpt: ''
 coverImage: 'cover.webp'
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
 ingredients:
   - 50ml gin
   - 50ml martini rosso/bianco
@@ -18,6 +17,5 @@ tags:
   - campari
 ---
 
-1. Lorem
-1. Ipsum
-1. Dolor sit amet
+1. Add the gin, martini and campari to an ice-filled old-fashioned glass and stir.
+1. Garnish with an orange slice and serve.
