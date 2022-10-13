@@ -14,7 +14,7 @@ ingredients:
   - 1 cucchiaio di olio extravergine d'oliva
   - sale e pepe QB
 tags:
-  - gnocchi
+  - pasta
   - salato
   - primo
   - main

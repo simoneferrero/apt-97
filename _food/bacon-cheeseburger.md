@@ -15,7 +15,6 @@ ingredients:
   - salsa BBQ
   - spezie, sale e pepe QB
 tags:
-  - burger
   - salato
   - main
   - carne

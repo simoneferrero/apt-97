@@ -13,7 +13,6 @@ ingredients:
   - 30g burro fuso
   - 1 pizzico sale
 tags:
-  - dessert
   - dolce
 ---
 

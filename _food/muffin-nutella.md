@@ -9,7 +9,6 @@ ingredients:
   - Nutella QB
   - latte o acqua QB
 tags:
-  - dessert
   - dolce
   - cioccolato
 ---

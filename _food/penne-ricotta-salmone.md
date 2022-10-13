@@ -15,7 +15,6 @@ tags:
   - salato
   - primo
   - main
-  - salmone
 ---
 
 Questa pasta è gustosa e saporita, cremosa ma senza tutti i problemi nutrizionali dovuti all'uso della panna. Golosa!

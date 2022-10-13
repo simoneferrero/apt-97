@@ -17,8 +17,6 @@ ingredients:
 tags:
   - companion
   - dolce
-  - torta
-  - mele
   - vegetariano
 ---
 
