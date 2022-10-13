@@ -18,7 +18,10 @@ tags:
   - vegano
 ---
 
-Un piatto veloce e sfizioso, perfetto come stuzzichino per una festa! Questa ricetta si presta a tante varianti sul tipo di condimenti, provatela anche aggiungendo del tonno nella passata di pomodoro o sostituendo le olive con del mais!
+Un piatto veloce e sfizioso, perfetto come stuzzichino per una festa! 
+
+Questa ricetta si presta a tante varianti sul tipo di condimenti, provatela anche aggiungendo del tonno nella passata di pomodoro o sostituendo le olive con del mais!
+
 
 Per una versione vegana é possibile sostituire la mozzerella con un formaggio vegano fondente. In questo caso controllare le istruzione del formaggio scelto per decidere se metterlo ad inizio cottura o negli ultimi minuti.
 
