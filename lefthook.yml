@@ -9,7 +9,6 @@ pre-push:
       run: yarn test:ci
 
 pre-commit:
-  parallel: true
   commands:
     format:
       glob: '*.{js,ts,jsx,tsx,md,json}'
