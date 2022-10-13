@@ -3,7 +3,7 @@ title: 'Biscotti al limone'
 excerpt: ''
 date: '2022-10-13T11:29:23.166Z'
 author: Stefania
-servings: '8'
+servings: '4'
 ingredients:
   - 100gr burro
   - 110gr zucchero
