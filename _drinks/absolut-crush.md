@@ -3,6 +3,7 @@ title: 'Absolut Crush'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'old-fashioned'
 ingredients:
   - 25ml vodka
   - 25ml triple sec

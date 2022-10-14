@@ -3,6 +3,7 @@ title: 'Tom Collins'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'collins'
 ingredients:
   - 50ml gin
   - 25ml lemon juice

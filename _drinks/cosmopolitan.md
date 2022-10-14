@@ -3,6 +3,7 @@ title: 'Cosmopolitan'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'martini'
 ingredients:
   - 75ml vodka
   - 50ml cointreau

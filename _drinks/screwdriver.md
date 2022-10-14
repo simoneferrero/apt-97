@@ -3,7 +3,7 @@ title: 'Screwdriver'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
-servings: '1'
+glass: 'collins'
 ingredients:
   - 25ml vodka
   - 75ml orange juice

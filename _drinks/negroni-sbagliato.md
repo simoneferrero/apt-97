@@ -3,6 +3,7 @@ title: 'Negroni Sbagliato'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'old-fashioned'
 ingredients:
   - 25ml martini rosso
   - 25ml campari

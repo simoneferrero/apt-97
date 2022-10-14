@@ -3,6 +3,7 @@ title: 'Woodberry'
 excerpt: ''
 date: '2022-10-14T21:11:23.166Z'
 author: Simone
+glass: 'collins'
 ingredients:
   - 10ml honey
   - 20ml grenadine

@@ -8,7 +8,13 @@ import markdownStyles from './index.module.css'
 import classNames from 'classnames'
 import EditButton from '../EditButton'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faUser,
+  faGlassWater,
+  faWineGlass,
+  faWhiskeyGlass,
+  faMartiniGlass,
+} from '@fortawesome/free-solid-svg-icons'
 
 type Props = {
   post: PostType
@@ -54,7 +60,6 @@ const servingsContainerStyles = classNames(
   'bg-opacity-75',
   'bg-white',
   'flex',
-  'flex',
   'font-bold',
   'font-body',
   'gap-3',
@@ -67,6 +72,27 @@ const servingsContainerStyles = classNames(
   'text-base',
   'text-theme',
   'top-4',
+)
+const glassContainerStyles = classNames(
+  'absolute',
+  'bg-opacity-75',
+  'bg-white',
+  'flex',
+  'font-bold',
+  'font-body',
+  'gap-3',
+  'h-14',
+  'items-center',
+  'justify-center',
+  'md:text-lg',
+  'px-4',
+  'py-3',
+  'right-4',
+  'rounded-xl',
+  'text-base',
+  'text-theme',
+  'top-4',
+  'w-14',
 )
 const ingredientsSectionStyles = classNames(
   'border-2',
@@ -100,6 +126,25 @@ const lastModifiedStyles = classNames(
   'text-theme',
 )
 
+const glassTypes = {
+  collins: {
+    label: 'Collins',
+    icon: faGlassWater,
+  },
+  wine: {
+    label: 'Wine',
+    icon: faWineGlass,
+  },
+  'old-fashioned': {
+    label: 'Old Fashioned',
+    icon: faWhiskeyGlass,
+  },
+  martini: {
+    label: 'Martini',
+    icon: faMartiniGlass,
+  },
+} as const
+
 const Post = ({ post }: Props) => {
   const router = useRouter()
 
@@ -108,6 +153,7 @@ const Post = ({ post }: Props) => {
   }
 
   const hasServings = Boolean(post.servings)
+  const hasGlass = Boolean(post.glass)
   const hasIngredients = Boolean(post.ingredients)
 
   const pageTitle = post.title ? `${post.title} | Apt.97` : 'Apt.97'
@@ -140,6 +186,15 @@ const Post = ({ post }: Props) => {
                 <div className={servingsContainerStyles}>
                   <FontAwesomeIcon icon={faUser} />
                   <span aria-hidden>{post.servings}</span>
+                </div>
+              ) : null}
+              {hasGlass ? (
+                <div className={glassContainerStyles}>
+                  <FontAwesomeIcon
+                    className="fa-xl"
+                    aria-label={`${glassTypes[post.glass].label} glass`}
+                    icon={glassTypes[post.glass].icon}
+                  />
                 </div>
               ) : null}
             </section>

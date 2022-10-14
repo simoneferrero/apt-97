@@ -3,6 +3,7 @@ title: 'Old Fashioned'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'old-fashioned'
 ingredients:
   - 45ml bourbon
   - 2 dashes Angostura

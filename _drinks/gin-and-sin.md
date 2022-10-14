@@ -4,6 +4,7 @@ excerpt: ''
 coverImage: 'cover.webp'
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'martini'
 ingredients:
   - 25ml gin
   - 25ml orange juice

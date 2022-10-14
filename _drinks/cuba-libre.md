@@ -3,6 +3,7 @@ title: 'Cuba Libre'
 excerpt: ''
 date: '2022-09-30T21:11:23.166Z'
 author: Simone
+glass: 'collins'
 ingredients:
   - 75ml Coca Cola
   - 50ml rhum

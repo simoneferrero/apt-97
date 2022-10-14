@@ -3,6 +3,7 @@ title: 'Bramble'
 excerpt: 'The classic spring cocktail.'
 date: '2022-09-27T22:02:36.786Z'
 author: Simone
+glass: 'collins'
 ingredients:
   - 50ml gin
   - 25ml lemon juice
