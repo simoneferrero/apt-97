@@ -14,6 +14,7 @@ ingredients:
   - 30-40gr cacao dolce
   - 16gr lievito per dolci
   - 1 pizzico di sale
+  - 1 bacca di vaniglia
 tags:
   - dolce
   - torta
@@ -23,7 +24,7 @@ tags:
 Soffice e delizioso, perfetto per la colazione o per merenda! Abbinatelo alla Nutella per la massima golosità!
 
 1. Preriscaldare il forno ventilato a 170°.
-2. Montare 3 uova a temperatura ambiente con 140gr di zucchero e 1 pizzico di sale, fino ad ottenere un composto spumoso bianco (circa 10 minuti).
+2. Montare 3 uova a temperatura ambiente con 140gr di zucchero, 1 baca di vaniglia e 1 pizzico di sale, fino ad ottenere un composto spumoso bianco (circa 10 minuti).
 3. Ridurre la velocità al minimo e aggiungere poco a poco 250gr di yogurt greco.
 4. Aggiungere 100ml di olio di semi a filo e i semini di 1 bacca di vaniglia.
 5. Aggiungere un cucchiaio alla volta 180gr di farina 00, 60gr di fecola di patate e 16gr di lievito per dolci.
