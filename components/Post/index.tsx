@@ -14,6 +14,7 @@ import {
   faWineGlass,
   faWhiskeyGlass,
   faMartiniGlass,
+  faV,
 } from '@fortawesome/free-solid-svg-icons'
 
 type Props = {
@@ -94,6 +95,27 @@ const glassContainerStyles = classNames(
   'top-4',
   'w-14',
 )
+const veganStyles = classNames(
+  'absolute',
+  'bg-opacity-75',
+  'bg-white',
+  'flex',
+  'font-bold',
+  'font-body',
+  'gap-3',
+  'h-14',
+  'items-center',
+  'justify-center',
+  'md:text-lg',
+  'px-4',
+  'py-3',
+  'left-4',
+  'rounded-xl',
+  'text-base',
+  'text-theme',
+  'bottom-4',
+  'w-14',
+)
 const ingredientsSectionStyles = classNames(
   'border-2',
   'border-theme',
@@ -155,6 +177,8 @@ const Post = ({ post }: Props) => {
   const hasServings = Boolean(post.servings)
   const hasGlass = Boolean(post.glass)
   const hasIngredients = Boolean(post.ingredients)
+  const isParty = post.tags.includes('party')
+  const isVegan = post.tags.includes('vegan')
 
   const pageTitle = post.title ? `${post.title} | Apt.97` : 'Apt.97'
 
@@ -197,6 +221,15 @@ const Post = ({ post }: Props) => {
                   />
                 </div>
               ) : null}
+              {isVegan ? (
+                <div className={veganStyles}>
+                  <FontAwesomeIcon
+                    className="fa-xl"
+                    aria-label="vegan"
+                    icon={faV}
+                  />
+                </div>
+              ) : null}
             </section>
             {hasIngredients ? (
               <section className={ingredientsSectionStyles}>
@@ -209,17 +242,21 @@ const Post = ({ post }: Props) => {
               </section>
             ) : null}
           </div>
-          <section className={stepsSectionStyles}>
-            <h2 className={stepsTitleStyles}>Steps:</h2>
-            <div
-              className={markdownStyles['markdown']}
-              dangerouslySetInnerHTML={{ __html: post.content }}
-            />
-          </section>
-          <section className={tagsSectionStyles}>
-            <span className={sectionTitleStyles}>Tags:</span>{' '}
-            <span>{post.tags.join(', ')}</span>
-          </section>
+          {!isParty ? (
+            <>
+              <section className={stepsSectionStyles}>
+                <h2 className={stepsTitleStyles}>Steps:</h2>
+                <div
+                  className={markdownStyles['markdown']}
+                  dangerouslySetInnerHTML={{ __html: post.content }}
+                />
+              </section>
+              <section className={tagsSectionStyles}>
+                <span className={sectionTitleStyles}>Tags:</span>{' '}
+                <span>{post.tags.join(', ')}</span>
+              </section>
+            </>
+          ) : null}
         </article>
       )}
       <EditButton />
