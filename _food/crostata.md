@@ -9,7 +9,7 @@ ingredients:
   - 165gr di burro morbido
   - 130gr di zucchero
   - 1 uovo + 2 tuorli
-  - 1 buccia grattuggiata di un limone
+  - 1 buccia grattugiata di un limone
   - 1 bacello di vaniglia
   - 1/2 cucchiaino raso di bicarbonato
   - 1 pizzico di sale
@@ -18,8 +18,8 @@ tags:
   - dolce
 ---
 
-1. Grattuggiare 1 limone e mettere meta' della buccia da parte per il ripieno.
-2. Mettere nella planetaria 165gr di burro morbido, 130gr di zucchero, meta' della buccia grattuggiata e i semini di 1 bacello di vaniglia.
+1. Grattugiare 1 limone e mettere meta' della buccia da parte per il ripieno.
+2. Mettere nella planetaria 165gr di burro morbido, 130gr di zucchero, meta' della buccia grattugiata e i semini di 1 bacello di vaniglia.
 3. Mischiare bene con l'accessorio a foglia fino ad ottenere un composto molto cremoso, chiaro e spumoso.
 4. Aggiungere uno alla volta 1 uovo e 2 tuorli, mescolando fino a che uno non sia completamente assorbito prima di aggiungere il successivo.
 5. Mescolare fino ad ottenere un composto liscio, spumoso e privo di grumi.
@@ -42,7 +42,7 @@ tags:
 22. Lasciare di nuovo riposare la teglia in frigo e preriscaldare il forno a 180° statico.
 23. Infornare la teglia per 10 minuti, passati i quali la temperatura del forno andra' abbassata a 170°. Cuocere per altri 25 minuti.
 24. Sfornare e lasciare raffreddare per 30 minuti prima di estrarre la crostata dalla teglia.
-25. Rasciarla raffreddare completamente prima di servirla.
+25. Lasciarla raffreddare completamente prima di servirla.
 26. Per i biscotti, stendere l'impasto avanzato di nuovo a 4mm e tagliare dei biscotti.
 27. Lasciare riposare i biscotti in frigo per almeno 20 minuti.
 28. Preriscaldare il forno a 180° statico.
