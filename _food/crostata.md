@@ -40,7 +40,7 @@ tags:
 20. Tagliare le losanghe della crostata di 2-3 cm di spessore e disporle sulla crostata in verticale e orizzontale, unendole con un dito ai bordi della crostata.
 21. Rimettere l'impasto avanzato in frigo per farci dei biscotti.
 22. Lasciare di nuovo riposare la teglia in frigo e preriscaldare il forno a 180° statico.
-23. Infornare la teglia per 10 minuti, passati i quali la temperatura del forno andra' abbassata a 175°. Cuocere per altri 25 minuti.
+23. Infornare la teglia per 10 minuti, passati i quali la temperatura del forno andra' abbassata a 170°. Cuocere per altri 25 minuti.
 24. Sfornare e lasciare raffreddare per 30 minuti prima di estrarre la crostata dalla teglia.
 25. Rasciarla raffreddare completamente prima di servirla.
 26. Per i biscotti, stendere l'impasto avanzato di nuovo a 4mm e tagliare dei biscotti.
