@@ -7,7 +7,7 @@ ingredients:
   - 1 rotolo di pasta sfoglia o frisee
   - 300ml panna liquida
   - 3 uova
-  - 150gr di formaggio (cheddar, gruviera o parmigiano) 
+  - 150gr di formaggio (cheddar, gruviera o parmigiano)
   - 150-200gr pancetta affumicata a cubetti
 tags:
   - party

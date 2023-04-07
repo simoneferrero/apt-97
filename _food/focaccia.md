@@ -9,7 +9,7 @@ ingredients:
   - 25gr lievito di birra
   - 40ml olio extravergine di oliva
   - 2 cucchiaini zucchero
-  - 150gr sale
+  - 15gr sale + QB per salare la superficie
   - 400ml acqua
 tags:
   - salato
@@ -18,7 +18,7 @@ tags:
 
 Una fragrante tradizione della cucina italiana.
 
-1. In una planetaria, sciogliere 150gr di sale in 400ml di acqua tiepida.
+1. In una planetaria, sciogliere 15gr di sale in 400ml di acqua tiepida.
 2. Unire 2 cucchiaini di zucchero, 40ml di olio extravergine di oliva e 300gr di farina manitoba.
 3. Impastare fino ad ottenere un composto omogeneo.
 4. Unire 25gr di lievito di birra e impastare per altri 2-3 minuti.
