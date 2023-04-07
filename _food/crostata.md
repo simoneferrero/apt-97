@@ -34,7 +34,7 @@ tags:
 14. Tagliare poi delle strisce di 3-4 cm di spessore e usarle per formare i bordi della crostata. Unirle alla base schiacciando leggermente con un dito.
 15. Riporre l'impasto restante di nuovo in frigo formando una palla.
 16. Bucherellare il fondo della sfoglia con una forchetta.
-17. Versare la marmellata nella crostata e distribuirla uniformemente. 
+17. Versare la marmellata nella crostata e distribuirla uniformemente.
 18. Rimettere la teglia in frigo.
 19. Quando l'impasto in frigo sara' sufficientemente compatto (circa 30 minuti), stenderlo di nuovo a 4mm.
 20. Tagliare le losanghe della crostata di 2-3 cm di spessore e disporle sulla crostata in verticale e orizzontale, unendole con un dito ai bordi della crostata.
