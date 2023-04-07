@@ -10,7 +10,8 @@ ingredients:
   - 150gr di formaggio (cheddar, gruviera o parmigiano)
   - 150-200gr pancetta affumicata a cubetti
 tags:
-  - party
+  - salato
+  - main
 ---
 
 1. Preriscaldare il forno a 180° statico.
@@ -19,6 +20,6 @@ tags:
 4. Stendere la pasta sfoglia o frisee in una teglia rivestita di carta forno e bucherellare il fondo con una forchetta.
 5. Distribuire la pancetta e meta' del formaggio uniformemente sul fondo.
 6. Versare delicatamente il composto di panna e uova.
-7. Distribuire il fomraggio avanzato uniformemente.
-8. Infornare per 50 minuti.
-9. Lasciare raffreddare prima di tagliarla/servirla per compattare.
+7. Distribuire il formaggio avanzato uniformemente.
+8. Infornare per 50 minuti. Ruotare a meta' cottura se il vostro forno non cuoce uniformemente (come il nostro).
+9. Lasciare raffreddare e compattare prima di tagliarla/servirla.
