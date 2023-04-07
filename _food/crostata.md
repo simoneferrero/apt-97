@@ -19,17 +19,17 @@ tags:
 ---
 
 1. Grattuggiare 1 limone e mettere meta' della buccia da parte per il ripieno.
-2. Mettere nella planetaria 165gr di zucchero morbido, 130gr di zucchero, meta' della buccia grattuggiata e i semini di 1 bacello di vaniglia.
+2. Mettere nella planetaria 165gr di burro morbido, 130gr di zucchero, meta' della buccia grattuggiata e i semini di 1 bacello di vaniglia.
 3. Mischiare bene con l'accessorio a foglia fino ad ottenere un composto molto cremoso, chiaro e spumoso.
 4. Aggiungere uno alla volta 1 uovo e 2 tuorli, mescolando fino a che uno non sia completamente assorbito prima di aggiungere il successivo.
 5. Mescolare fino ad ottenere un composto liscio, spumoso e privo di grumi.
 6. Aggiungere 330gr di farina setacciata e 1/2 cucchiaino raso di bicarbonato e mescolare a velocita' minima e per il meno tempo possibile necessario a incorporare la farina.
 7. Trasferire l'impasto morbido su di una spianatoia leggermente infarinata.
 8. Lavorare l'impasto con le mani leggermente infarinate per pochissimo tempo, giusto il necessario a compattarlo in una palla morbida che si stacca dalle mani. Se l'impasto risulta troppo appiccicoso, aggiungere un poco di farina.
-9. Avvolgere l'impasto nella carta trasparente a contatto e metterlo in frigo. Lasciare riposare in frigo per almeno 2 ore.
+9. Avvolgere l'impasto nella carta trasparente a contatto e metterlo in frigo. Lasciare riposare in frigo per almeno 2 ore. Se ce l'avete, mettere il mattarello di metallo in freezer.
 10. Mischiare la marmellata con la restate meta' di buccia grattuggiata di limone.
 11. Rivestire la teglia con carta da forno, avendo cura di tagliarla in modo da ottenere degli angoli piatti.
-12. Stendere l'impasto sulla spianatoia con un mattarello leggermente infarinato fino ad ottenere una sfoglia di 4mm.
+12. Stendere l'impasto sulla spianatoia con un mattarello (possibilmente di metallo) leggermente infarinato fino ad ottenere una sfoglia di 4mm.
 13. Tagliare la sfoglia delle dimensioni del fondo della teglia e trasferirla nella teglia.
 14. Tagliare poi delle strisce di 3-4 cm di spessore e usarle per formare i bordi della crostata. Unirle alla base schiacciando leggermente con un dito.
 15. Riporre l'impasto restante di nuovo in frigo formando una palla.

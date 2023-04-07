@@ -29,7 +29,7 @@ Una fragrante tradizione della cucina italiana.
 9. Lasciare riposare per 30-60 minuti nel forno spento con solo la luce accesa.
 10. Formare i tipici buchi della focaccia con le dita, irrorare con una miscela di acqua e olio extravergine di oliva.
 11. Lasciare riposare per altri 30-45 minuti nel forno spento con solo la luce accesa.
-12. Estrarre la teglia e preriscaldare il forno a 250°.
-13. Salare con sale grosso e cuocere per 20-25 minuti.
+12. Estrarre la teglia e preriscaldare il forno a 220-230° a seconda di quanto la preferite croccante.
+13. Salare con sale grosso e cuocere per 15 minuti.
 
 Gustate la focaccia ancora tiepida con affettati e salumi.
