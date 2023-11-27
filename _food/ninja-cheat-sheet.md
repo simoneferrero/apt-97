@@ -31,5 +31,5 @@ tags:
 
 #### Zucchine
 
-- Taglia in lunghezza in 4 e poi a pezzi di 2.5cm
-- Air crisp 200° 15-20 min, girandole a metà cottura.
+- Taglia a cubetti
+- Air crisp 180° 15 min, girandole a metà cottura.
