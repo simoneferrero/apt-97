@@ -4,13 +4,13 @@ excerpt: ''
 date: '2023-12-16T21:11:23.166Z'
 author: Stefania
 ingredients:
-- 1 rotolo di pasta sfoglia
-- 100gr di salmone affumicato
-- 100gr di formaggio cremoso alle erbette e aglio (eg. Boursin)
-- (opzionale) 1 uovo
+  - 1 rotolo di pasta sfoglia
+  - 100gr di salmone affumicato
+  - 100gr di formaggio cremoso alle erbette e aglio (eg. Boursin)
+  - (opzionale) 1 uovo
 tags:
-- salato
-- antipasto
+  - salato
+  - antipasto
 ---
 
 1. Preriscaldare il forno a 220° statico.
