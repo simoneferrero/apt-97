@@ -3,6 +3,7 @@ export type PostFrontmatterType = {
   coverImage: string
   date: string
   excerpt: string
+  favourite?: boolean
   glass?: GlassType
   ingredients?: string[]
   servings?: string

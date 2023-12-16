@@ -2,11 +2,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import classNames from 'classnames'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 type Props = {
   title: string
   coverImage: string
   slug: string
+  favourite?: boolean
 }
 
 const articleStyles = classNames(
@@ -37,8 +40,29 @@ const titleStyles = classNames(
   'text-xl',
   'w-11/12',
 )
+const favouriteContainerStyles = classNames(
+  'absolute',
+  'bg-opacity-75',
+  'bg-white',
+  'flex',
+  'font-bold',
+  'font-body',
+  'gap-3',
+  'h-14',
+  'items-center',
+  'justify-center',
+  'md:text-lg',
+  'px-4',
+  'py-3',
+  'right-4',
+  'rounded-xl',
+  'text-base',
+  'text-theme',
+  'top-4',
+  'w-14',
+)
 
-const PostPreview = ({ title, coverImage, slug }: Props) => {
+const PostPreview = ({ title, coverImage, slug, favourite }: Props) => {
   const { pathname } = useRouter()
 
   return (
@@ -53,6 +77,15 @@ const PostPreview = ({ title, coverImage, slug }: Props) => {
             objectFit="cover"
             layout="responsive"
           />
+          {favourite ? (
+            <div className={favouriteContainerStyles}>
+              <FontAwesomeIcon
+                className="fa-xl"
+                aria-label="favourite"
+                icon={faStar}
+              />
+            </div>
+          ) : null}
           <div className={titleStyles}>{title.toUpperCase()}</div>
         </article>
       </a>

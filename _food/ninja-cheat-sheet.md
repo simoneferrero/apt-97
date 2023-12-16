@@ -3,6 +3,7 @@ title: 'Ninja cheat sheet'
 excerpt: ''
 date: '2022-10-11T11:29:23.166Z'
 author: Stefania
+favourite: true
 tags:
   - ninja
   - salato

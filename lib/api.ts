@@ -39,8 +39,12 @@ export const getAllPosts = (directory: Directory) => {
   const slugs = getPostSlugs(directory)
   const posts = slugs
     .map((slug) => getPostBySlug(slug, directory))
-    // sort posts alphabetically
-    .sort((post1, post2) => (post1.title > post2.title ? 1 : -1))
+    // sort posts by favourite and then alphabetically
+    .sort((post1, post2) => {
+      if (!post1.favourite && post2.favourite) return 1
+      if (post1.favourite && !post2.favourite) return -1
+      return post1.title > post2.title ? 1 : -1
+    })
   return posts
 }
 
